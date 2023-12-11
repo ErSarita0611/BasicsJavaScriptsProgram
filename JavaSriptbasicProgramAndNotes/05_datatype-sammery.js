@@ -37,3 +37,35 @@ const myFunction = function(){
 console.log(typeof heros);
 
 
+
+
+
+//************************************************************************************************************* */
+
+// Stack (Primitive data type)-> memory 
+
+// Heap (Non-Primitive datatype)-> reference
+
+
+let myInstagramName = "I love_namture"
+let anotherName = myInstagramName
+anotherName = "Heven is not for the perfact but for the loving"
+
+console.log(anotherName);
+console.log(myInstagramName);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sarita@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
