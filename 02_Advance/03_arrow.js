@@ -7,4 +7,12 @@ const user = {
     // }
     
 }
-user.welcomeMassage()
+// user.welcomeMassage()
+
+
+function chai(){
+    let username = "sarita"
+    console.log(this);
+
+}
+chai()
